@@ -16,5 +16,6 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
     alert('Merci pour votre message, ' + name + ' ! Je vous répondrai dès que possible.');
 
     // Réinitialise le formulaire
+    // Ajout de form
     document.getElementById('contact-form').reset();
 });
